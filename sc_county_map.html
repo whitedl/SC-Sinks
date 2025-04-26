@@ -29,7 +29,7 @@ L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_L
 }).addTo(map);
 
 // Load SC county boundaries GeoJSON
-fetch('sc_counties.geojson') // Replace with your path to SC counties GeoJSON
+fetch('SC_cnty.json') // Replace with your path to SC counties GeoJSON
   .then(response => response.json())
   .then(data => {
     
